@@ -2,14 +2,14 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Circuit Breaker com Retry em Go</title>
+  <title>Retry + Circuit Breaker</title>
 </head>
 <body>
 
   {{ if eq .Status "" }}
     <form action="/process" method="post">
       <label>ID:</label>
-      <input type="number" name="id" placeholder="Type ID" required />
+      <input type="text" name="id" placeholder="Type ID" required />
       <button type="submit">Submit</button>
     </form>
   {{ else }}
