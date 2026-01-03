@@ -21,16 +21,18 @@ O projeto é composto por dois microserviços:
 
 Fluxo da requisição:
 
-```mermaid
+```
+Fluxo da requisição:
+
 Service A
-   |
-   |  HTTP POST
-   v
+  |
+  | HTTP POST
+  v
 Service B
-   |
-   |-- 200 OK        → conta sucesso
-   |-- 500 Error     → conta falha
-   |-- Timeout (2s)  → conta falha
+  |
+  |-- 200 OK        → conta sucesso
+  |-- 500 Error     → conta falha
+  |-- Timeout (2s)  → conta falha
 ```
 
 ---

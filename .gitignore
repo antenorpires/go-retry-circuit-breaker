@@ -1,1 +1,62 @@
-.env
+# =====================
+# Go
+# =====================
+
+# Binários gerados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de build
+*.test
+*.out
+
+# Pastas de build
+/bin/
+/dist/
+
+# Cache do Go
+# /go.sum
+/pkg/
+/vendor/
+
+# =====================
+# IDEs / Editores
+# =====================
+
+# VS Code
+.vscode/
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# =====================
+# Sistema Operacional
+# =====================
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Temporários
+# =====================
+tmp/
+temp/
