@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Circuit Breaker com Retry em Go</title>
+</head>
+<body>
+
+  {{ if eq .Status "" }}
+    <form action="/process" method="post">
+      <label>ID:</label>
+      <input type="number" name="id" placeholder="Type ID" required />
+      <button type="submit">Submit</button>
+    </form>
+  {{ else }}
+    <pre>
+{
+  "status": "{{ .Status }}"
+}
+    </pre>
+  {{ end }}
+
+</body>
+</html>
