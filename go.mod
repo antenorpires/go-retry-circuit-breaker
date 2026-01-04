@@ -1,4 +1,4 @@
-module github.com/antenorpires/micro-retry
+module github.com/antenorpires/go-retry-circuit-breaker
 
 go 1.23
 
